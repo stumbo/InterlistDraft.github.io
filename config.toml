@@ -1,5 +1,5 @@
-baseURL = "https://interlisp.org"
-title = "Medley Interlisp Project"
+baseURL = "https://stumbo.github.io"
+title = "Test of Medley Interlisp Project"
 
 #relativeURLs = true
 
