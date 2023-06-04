@@ -7,33 +7,25 @@
 <meta name="robots" content="index, follow">
 <link rel="shortcut icon" href="/Resources/favicon.png" type="image/png">
 
-<title>Building Medley Interlisp | Medley Interlisp Project</title>
-<meta name="description" content="Medley Interlisp is open-source and may be obtained from GitHub. It is portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.
-The core is written in portable C. The system currently depends on an X11 system for its display.
-Obtaining The System The system comes in two parts. The first is a C-based virtual machine maiko.
-The remainder of the system is OS / architecture-independent and can be found in the medley repository.">
-<meta property="og:title" content="Building Medley Interlisp" />
-<meta property="og:description" content="Medley Interlisp is open-source and may be obtained from GitHub. It is portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.
-The core is written in portable C. The system currently depends on an X11 system for its display.
-Obtaining The System The system comes in two parts. The first is a C-based virtual machine maiko.
-The remainder of the system is OS / architecture-independent and can be found in the medley repository." />
+<title>Releases | Medley Interlisp Project</title>
+<meta name="description" content="Medley repo releases contains the current Medley release. New releases are generated regularly as functionality is restored and extended.
+An alternative is to point your browser to Online Interlisp and try our cloud hosted version of Medley Interlisp.">
+<meta property="og:title" content="Releases" />
+<meta property="og:description" content="Medley repo releases contains the current Medley release. New releases are generated regularly as functionality is restored and extended.
+An alternative is to point your browser to Online Interlisp and try our cloud hosted version of Medley Interlisp." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://stumbo.github.io/medley/using/running/build/building/" /><meta property="article:section" content="medley" />
+<meta property="og:url" content="https://stumbo.github.io/medley/using/build/releases/" /><meta property="article:section" content="medley" />
 
 
-<meta itemprop="name" content="Building Medley Interlisp">
-<meta itemprop="description" content="Medley Interlisp is open-source and may be obtained from GitHub. It is portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.
-The core is written in portable C. The system currently depends on an X11 system for its display.
-Obtaining The System The system comes in two parts. The first is a C-based virtual machine maiko.
-The remainder of the system is OS / architecture-independent and can be found in the medley repository.">
+<meta itemprop="name" content="Releases">
+<meta itemprop="description" content="Medley repo releases contains the current Medley release. New releases are generated regularly as functionality is restored and extended.
+An alternative is to point your browser to Online Interlisp and try our cloud hosted version of Medley Interlisp.">
 
-<meta itemprop="wordCount" content="112">
+<meta itemprop="wordCount" content="38">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Building Medley Interlisp"/>
-<meta name="twitter:description" content="Medley Interlisp is open-source and may be obtained from GitHub. It is portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.
-The core is written in portable C. The system currently depends on an X11 system for its display.
-Obtaining The System The system comes in two parts. The first is a C-based virtual machine maiko.
-The remainder of the system is OS / architecture-independent and can be found in the medley repository."/>
+<meta name="twitter:title" content="Releases"/>
+<meta name="twitter:description" content="Medley repo releases contains the current Medley release. New releases are generated regularly as functionality is restored and extended.
+An alternative is to point your browser to Online Interlisp and try our cloud hosted version of Medley Interlisp."/>
 
 
 
@@ -49,7 +41,7 @@ The remainder of the system is OS / architecture-independent and can be found in
   src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
   integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
   crossorigin="anonymous"></script>
-<link rel="canonical" href="https://stumbo.github.io/medley/using/running/build/building/">
+<link rel="canonical" href="https://stumbo.github.io/medley/using/build/releases/">
 
   </head>
   <body class="td-page">
@@ -79,7 +71,7 @@ The remainder of the system is OS / architecture-independent and can be found in
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.957eff0dd47e39e67180c682506d0efb.json"
+    data-offline-search-index-json-src="/offline-search-index.cff2f9b3cd59d69c18eacaf44c6f5c3f.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -104,7 +96,7 @@ The remainder of the system is OS / architecture-independent and can be found in
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.957eff0dd47e39e67180c682506d0efb.json"
+    data-offline-search-index-json-src="/offline-search-index.cff2f9b3cd59d69c18eacaf44c6f5c3f.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -124,20 +116,20 @@ The remainder of the system is OS / architecture-independent and can be found in
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyprojectnews-li">
   <a href="/medley/project/news/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyprojectnews"><span class="">News</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyprojectnews2022medleyannualreport-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyprojectnews2022medleyannualreport-li">
   <a href="/medley/project/news/2022medleyannualreport/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyprojectnews2022medleyannualreport"><span class="">2022 Medley Interlisp Annual Report</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyprojectnews2021medleyannualreport-li">
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyprojectnews2021medleyannualreport-li">
   <a href="/medley/project/news/2021medleyannualreport/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyprojectnews2021medleyannualreport"><span class="">2021 Medley Interlisp Annual Report</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyprojectvocabulary-li">
-  <a href="/medley/project/vocabulary/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyprojectvocabulary"><span class=""></span></a>
+  <a href="/medley/project/vocabulary/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyprojectvocabulary"><span class="">Vocabulary</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-medleyusing-li">
   <a href="/medley/using/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyusing"><span class="">Using Medley</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-medleyusingrunning-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyusingrunning-li">
   <a href="/medley/using/running/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyusingrunning"><span class="">Running Medley Interlisp</span></a>
   <ul class="ul-3 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyusingrunningonline-li">
@@ -153,15 +145,15 @@ The remainder of the system is OS / architecture-independent and can be found in
   <a href="/medley/using/running/running-on-mac/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyusingrunningrunning-on-mac"><span class="">Running on MacOS</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyusingrunningrunning-on-win-li">
   <a href="/medley/using/running/running-on-win/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyusingrunningrunning-on-win"><span class="">Running on Windows 10/11</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docbuildhtml-li">
-  <a href="/doc/build.html" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docbuildhtml"><span class="">Building the Interlisp system</span></a>
-  <ul class="ul-4 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-medleyusingrunningbuildbuilding-li">
-  <a href="/medley/using/running/build/building/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-medleyusingrunningbuildbuilding"><span class="td-sidebar-nav-active-item">Building Medley Interlisp</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyusingrunningbuildreleases-li">
-  <a href="/medley/using/running/build/releases/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyusingrunningbuildreleases"><span class="">Releases</span></a>
 </li>
   </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docbuildhtml-li">
+  <a href="/doc/build.html" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docbuildhtml"><span class="">Building the Interlisp system</span></a>
+  <ul class="ul-3 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyusingbuildbuilding-li">
+  <a href="/medley/using/build/building/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyusingbuildbuilding"><span class="">Building Medley Interlisp</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-medleyusingbuildreleases-li">
+  <a href="/medley/using/build/releases/" class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id="m-medleyusingbuildreleases"><span class="td-sidebar-nav-active-item">Releases</span></a>
 </li>
   </ul>
 </li>
@@ -171,24 +163,24 @@ The remainder of the system is OS / architecture-independent and can be found in
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docinfohistoryhtml-li">
   <a href="/doc/info/history.html" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-docinfohistoryhtml"><span class="">History</span></a>
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-publications-li">
-  <a href="/publications/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-publications"><span class="">Publications</span></a>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyhistorypublications-li">
+  <a href="/medley/history/publications/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyhistorypublications"><span class="">Publications</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyhistorypublicationszotero-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyhistorypublicationszotero-li">
   <a href="/medley/history/publications/zotero/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyhistorypublicationszotero"><span class="">Zotero Bibliography</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyhistorypublicationstable-li">
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyhistorypublicationstable-li">
   <a href="/medley/history/publications/table/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyhistorypublicationstable"><span class="">Bibliography</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyhistorycredits-li">
   <a href="/medley/history/credits/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyhistorycredits"><span class="">Credits</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyhistorycreditsin-memoriam-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyhistorycreditsin-memoriam-li">
   <a href="/medley/history/credits/in-memoriam/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyhistorycreditsin-memoriam"><span class="">In Memoriam</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyhistoryshort-li">
-  <a href="/medley/history/short/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyhistoryshort"><span class=""></span></a>
+  <a href="/medley/history/short/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyhistoryshort"><span class="">Short History</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyabout-li">
@@ -201,36 +193,36 @@ The remainder of the system is OS / architecture-independent and can be found in
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyothergetinvolved-li">
   <a href="/medley/other/getinvolved/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyothergetinvolved"><span class="">Get Involved</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyothergetinvolved2021meetings-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyothergetinvolved2021meetings-li">
   <a href="/medley/other/getinvolved/2021meetings/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyothergetinvolved2021meetings"><span class="">2021 Meeting Agendas and Notes</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyothergetinvolved2022meetings-li">
-  <a href="/medley/other/getinvolved/2022meetings/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyothergetinvolved2022meetings"><span class=""></span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyothergetinvolved2022meetings-li">
+  <a href="/medley/other/getinvolved/2022meetings/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyothergetinvolved2022meetings"><span class="">2022 Meeting Agendas and Notes</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyotherpartners-li">
   <a href="/medley/other/partners/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyotherpartners"><span class="">Organizational Partners</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyotherpartnerseducopia-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyotherpartnerseducopia-li">
   <a href="/medley/other/partners/educopia/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyotherpartnerseducopia"><span class="">Educopia</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyotherpartnersspn-li">
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyotherpartnersspn-li">
   <a href="/medley/other/partners/spn/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyotherpartnersspn"><span class="">Software Preservation Network</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyotherpartnersinterlisporg-inc-li">
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyotherpartnersinterlisporg-inc-li">
   <a href="/medley/other/partners/interlisporg-inc/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyotherpartnersinterlisporg-inc"><span class="">InterlispOrg</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyothercomments-li">
   <a href="/medley/other/comments/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyothercomments"><span class="">What people are saying</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyothercommentsstories-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-medleyothercommentsstories-li">
   <a href="/medley/other/comments/stories/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-medleyothercommentsstories"><span class="">Individual Stories</span></a>
 </li>
   </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-documentation-li">
   <a href="/documentation/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-documentation"><span class="">Documentation</span></a>
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-docinfousinghtml-li">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docinfousinghtml-li">
   <a href="/doc/info/Using.html" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-docinfousinghtml"><span class="">The Basics of Interlisp</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child collapse" id="m-medleyotherdocsmedley-li">
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-medleyotherdocsmedley-li">
   <a href="/medley/other/docs/medley/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-medleyotherdocsmedley"><span class="">What to Expect when Using Medley</span></a>
   <ul class="ul-4 foldable">
     <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child collapse" id="m-medleyotherdocsmedleymodern-medley-release-notes-li">
@@ -260,24 +252,17 @@ The remainder of the system is OS / architecture-independent and can be found in
 
 <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
 	
-	<a href="https://github.com/interlisp/Interlisp.github.io/tree/main/content/en/medley/using/running/build/building.md" class="td-page-meta--view" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines fa-fw"></i> View page source</a>
-	<a href="https://github.com/interlisp/Interlisp.github.io/edit/main/content/en/medley/using/running/build/building.md" class="td-page-meta--edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Edit this page</a>
-	<a href="https://github.com/interlisp/Interlisp.github.io/new/main/content/en/medley/using/running/build/building.md?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child" target="_blank"	rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Create child page</a>
-	<a href="https://github.com/interlisp/medley/issues/new?template=documentation.md&amp;projects=Interlisp/medley/5%25!%28EXTRA%20template.URL=Building%20Medley%20Interlisp%29" class="td-page-meta--issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create documentation issue</a>
+	<a href="https://github.com/interlisp/Interlisp.github.io/tree/main/content/en/medley/using/build/releases.md" class="td-page-meta--view" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines fa-fw"></i> View page source</a>
+	<a href="https://github.com/interlisp/Interlisp.github.io/edit/main/content/en/medley/using/build/releases.md" class="td-page-meta--edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Edit this page</a>
+	<a href="https://github.com/interlisp/Interlisp.github.io/new/main/content/en/medley/using/build/releases.md?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child" target="_blank"	rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Create child page</a>
+	<a href="https://github.com/interlisp/medley/issues/new?template=documentation.md&amp;projects=Interlisp/medley/5%25!%28EXTRA%20template.URL=Releases%29" class="td-page-meta--issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create documentation issue</a>
 	
 
 	<a id="print" href="https://stumbo.github.io/_print/doc/build.html"><i	class="fa-solid fa-print fa-fw"></i> Print entire section</a>
 	
 </div>
 
-            <div class="td-toc">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#obtaining-the-system">Obtaining The System</a></li>
-  </ul>
-</nav>
-      </div>
-    
+            
             
 
 	
@@ -314,19 +299,16 @@ The remainder of the system is OS / architecture-independent and can be found in
     <a href="https://stumbo.github.io/medley/using/">Using Medley</a>
   </li>
   <li class="breadcrumb-item">
-    <a href="https://stumbo.github.io/medley/using/running/">Running Medley Interlisp</a>
-  </li>
-  <li class="breadcrumb-item">
     <a href="https://stumbo.github.io/doc/build.html">Building the Interlisp system</a>
   </li>
   <li class="breadcrumb-item active" aria-current="page">
-    <a href="https://stumbo.github.io/medley/using/running/build/building/" aria-disabled="true" class="btn-link disabled">Building Medley Interlisp</a>
+    <a href="https://stumbo.github.io/medley/using/build/releases/" aria-disabled="true" class="btn-link disabled">Releases</a>
   </li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>Building Medley Interlisp</h1>
+	<h1>Releases</h1>
 	
 	<header class="article-meta">
 		
@@ -345,19 +327,8 @@ The remainder of the system is OS / architecture-independent and can be found in
 
 		
 	</header>    
-	<p>Medley Interlisp is open-source and may be obtained from GitHub.  It is
-portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.</p>
-<p>The core is written in portable C. The system currently depends on an
-X11 system for its display.</p>
-<h2 id="obtaining-the-system">Obtaining The System</h2>
-<p>The system comes in two parts.  The first is a C-based
-virtual machine <a href="https://github.com/interlisp/maiko">maiko</a>.</p>
-<p>The remainder of the system is OS / architecture-independent and can be found in
-the <a href="https://github.com/interlisp/medley">medley</a> repository.</p>
-<p>You can now download Medley Interlisp from a <a href="https://github.com/interlisp/medley/releases">release</a>
-without building anything; see <a href="https://github.com/Interlisp/medley#readme">medley README</a></p>
-<p>See <a href="https://github.com/Interlisp/maiko#readme">The Maiko README</a> for build instructions
-for Maiko, for systems for which there is no pre-built release.</p>
+	<p><a href="https://github.com/interlisp/medley/releases">Medley repo releases</a> contains the current Medley release. New releases are generated regularly as functionality is restored and extended.</p>
+<p>An alternative is to point your browser to <a href="https://online.interlisp.org/">Online Interlisp</a> and try our cloud hosted version of Medley Interlisp.</p>
 
 	
 	

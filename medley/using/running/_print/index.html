@@ -63,7 +63,7 @@
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.957eff0dd47e39e67180c682506d0efb.json"
+    data-offline-search-index-json-src="/offline-search-index.cff2f9b3cd59d69c18eacaf44c6f5c3f.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -167,41 +167,6 @@ This is the multi-page printable view of this section.
 <li>4: <a href="#pg-0608794947aa260a144d74917c30735c">Running on Windows 10/11</a></li>
 
 
-    
-  
-    
-    
-	
-<li>5: <a href="#pg-b29944147dbadb0ddc5faeb5de8be9fc">Building the Interlisp system</a></li>
-
-
-    
-    <ul>
-        
-  
-  
-  
-  
-
-  
-    
-    
-	
-<li>5.1: <a href="#pg-bb872b59d9a9fed614ae4c0f6ea912b1">Building Medley Interlisp</a></li>
-
-
-    
-  
-    
-    
-	
-<li>5.2: <a href="#pg-12cc936b6237cdb5a78ddbc02efc308a">Releases</a></li>
-
-
-    
-  
-
-    </ul>
     
   
 
@@ -387,7 +352,7 @@ Your browser will open a window that represents the Interlisp Desktop and looks 
 <li>You need a solid net connection to our AWS server (currently in Ohio)</li>
 <li>Back to time-sharing: Maximum load ~24 simultaneous sessions</li>
 </ul>
-<h1 id="accessing-interlisp-online">Accessing Interlisp Online</h1>
+<h2 id="accessing-interlisp-online">Accessing Interlisp Online</h2>
 <ol>
 <li>
 <p>Go to <a href="https://online.interlisp.org/main">Interlisp Online</a><br>
@@ -411,7 +376,7 @@ Your browser will open a window that represents the Interlisp Desktop and looks 
 <li>
 <p>Login to Medley Interlisp Online:</p>
 <ul>
-<li>You can login as a guest by clicking <img src="Graphics/Guest Login button.png" alt="Guest Login button"> on the login screen. However, guest sessions are not saved.
+<li>You can login as a guest by clicking <img src="Guest_Login_button.png" alt="Guest Login button"> on the login screen. However, guest sessions are not saved.
 or</li>
 <li>We suggest you create your own account by clicking <img src="Graphics/New User Register here button.png" alt="New User Register here button"> on the login screen. Having an account enables you to save your sessions. To create an account, you just need an email address and password. Click Register here on the login screen to create your own account.
 or</li>
@@ -457,10 +422,11 @@ Your browser will open a window that represents the Interlisp Desktop and looks 
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">PLUS</span> <span style="color:#0000cf;font-weight:bold">1</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">)</span>
 </span></span></code></pre></div><p>When you complete typing the ending <code>)</code> the Interlisp interpreter will perform the calculation and return the result.</p>
 <p>One thing you probably noticed, the command <code>PLUS</code> is capitalized. It’s not that the developers of Interlisp were always shouting at each other. Rather, when Interlisp was developed computer programming was in its infancy and standards for naming commands were still evolving.</p>
-<a href="online/usingOnline">
-  <img src="Graphics/Guide to help you begin programming in Interlisp.jpg"
-  alt="Guide to help you begin programming in Interlisp" > </a>
-<p></p>
+<div class="mx-auto">
+ <a class="btn btn-lg btn-danger mr-3 mb-4" href="/medley/using/">
+  Guide to help you begin programming in Interlisp<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+ </a>
+</div>
 <h3 id="managing-memory-images-and-sessions">Managing memory images and sessions</h3>
 <p>(What is a memory image? How is it different from an image or memory?)
 In Interlisp, there are two types of files relevant to managing memory images and updating them across sessions: <code>lisp.virtualmem</code> and <code>.sysout</code>.</p>
@@ -750,114 +716,6 @@ Need XQuartz installed before you build maiko (includes XClient libraries).</p>
 </div>
 
 
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-b29944147dbadb0ddc5faeb5de8be9fc">5 - Building the Interlisp system</h1>
-    
-	<p>Medley Interlisp is open-source and may be obtained from GitHub. It is portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.</p>
-<p>The core is written in portable C. The system currently depends on an X11 system for its display.</p>
-<h3 id="obtaining-the-system">Obtaining The System</h3>
-<p>The system comes in two parts. The first is a C-based virtual machine <a href="https://github.com/interlisp/maiko">Maiko</a>.</p>
-<p>The remainder of the system is OS / architecture-independent and can be found in the <a href="https://github.com/interlisp/medley">Medley repository</a>.</p>
-<p>You can now download Medley Interlisp from a release without building anything; see the Medley <a href="https://github.com/interlisp/medley/#readme">README</a></p>
-<p>See The Maiko <a href="https://github.com/Interlisp/maiko/#readme">README</a> for build instructions for Maiko, for systems for which there is no pre-built release.</p>
-<p>(See <a href="https://github.com/Interlisp/medley/#readme">Medley repo README</a> for instructions on getting Medley.
-Make sure you have an X-server running to manage the Medley Interlisp display, and the DISPLAY environment variable set to point to your X-server.</p>
-<p>Running Medley can be done by typing:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#204a87">cd</span> medley
-</span></span><span style="display:flex;"><span>$ ./run-medley
-</span></span></code></pre></div><p>Or, if you wish to start Medley up with a particular image file (SYSOUT):</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#204a87">cd</span> medley
-</span></span><span style="display:flex;"><span>$ ./run-medley &lt;SYSOUT-file-name&gt;
-</span></span></code></pre></div><p>The first time the system is run it loads the system image that comes
-with the system.  When you exit the system (or &ldquo;do a <code>SaveVM</code>&rdquo; menu option)
-the state of your machine is saved
-in a file named <code>~/lisp.virtualmem</code>.  Subsequent system startups
-load the <code>~/lisp.virtualmem</code> image by default.</p>
-<h3 id="exiting-the-system">Exiting The System</h3>
-<p>The system may be exited from an Interlisp prompt by typing:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">LOGOUT</span><span style="color:#000;font-weight:bold">)</span>
-</span></span></code></pre></div><p>Or from a Common Lisp prompt with:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lisp" data-lang="lisp"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">IL:LOGOUT</span><span style="color:#000;font-weight:bold">)</span>
-</span></span></code></pre></div><p>When you logout of the system, Medley automatically creates a binary
-dump of your system located in your home directory named
-``lisp.virtualmem&rsquo;&rsquo;. The next time you run the system, if you don&rsquo;t
-specify a specific image to run, Medley restores that image so that
-you can continue right where you left off.</p>
-
-</div>
-
-
-
-    
-      
-  
-  
-  
-  
-
-  
-  
-
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-bb872b59d9a9fed614ae4c0f6ea912b1">5.1 - Building Medley Interlisp</h1>
-    
-	<p>Medley Interlisp is open-source and may be obtained from GitHub.  It is
-portable to many different Linux and Apple MacOS systems, as well as Windows using WSL2.</p>
-<p>The core is written in portable C. The system currently depends on an
-X11 system for its display.</p>
-<h2 id="obtaining-the-system">Obtaining The System</h2>
-<p>The system comes in two parts.  The first is a C-based
-virtual machine <a href="https://github.com/interlisp/maiko">maiko</a>.</p>
-<p>The remainder of the system is OS / architecture-independent and can be found in
-the <a href="https://github.com/interlisp/medley">medley</a> repository.</p>
-<p>You can now download Medley Interlisp from a <a href="https://github.com/interlisp/medley/releases">release</a>
-without building anything; see <a href="https://github.com/Interlisp/medley#readme">medley README</a></p>
-<p>See <a href="https://github.com/Interlisp/maiko#readme">The Maiko README</a> for build instructions
-for Maiko, for systems for which there is no pre-built release.</p>
-
-</div>
-
-
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-12cc936b6237cdb5a78ddbc02efc308a">5.2 - Releases</h1>
-    
-	<p><a href="https://github.com/interlisp/medley/releases">Medley repo releases</a> contains the current Medley release. New releases are generated regularly as functionality is restored and extended.</p>
-<p>An alternative is to point your browser to <a href="https://online.interlisp.org/">Online Interlisp</a> and try our cloud hosted version of Medley Interlisp.</p>
-
-</div>
-
-
-
-    
-	
-  
 
     
 	

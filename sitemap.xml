@@ -31,7 +31,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/using/running/build/building/</loc>
+    <loc>https://stumbo.github.io/medley/using/build/building/</loc>
   </url>
   
   <url>
@@ -43,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/using/running/build/releases/</loc>
+    <loc>https://stumbo.github.io/medley/using/build/releases/</loc>
   </url>
   
   <url>
@@ -135,11 +135,15 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/publications/</loc>
+    <loc>https://stumbo.github.io/medley/history/publications/</loc>
   </url>
   
   <url>
     <loc>https://stumbo.github.io/medley/history/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stumbo.github.io/medley/project/vocabulary/</loc>
   </url>
   
   <url>
@@ -159,15 +163,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/history/short/</loc>
-  </url>
-  
-  <url>
     <loc>https://stumbo.github.io/medley/other/getinvolved/2022meetings/</loc>
-  </url>
-  
-  <url>
-    <loc>https://stumbo.github.io/medley/project/vocabulary/</loc>
   </url>
   
   <url>
@@ -176,6 +172,10 @@
   
   <url>
     <loc>https://stumbo.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stumbo.github.io/medley/history/short/</loc>
   </url>
   
 </urlset>
