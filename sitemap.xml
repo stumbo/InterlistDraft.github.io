@@ -3,15 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stumbo.github.io/medley/project/news/2022medleyannualreport/</loc>
+    <loc>https://stumbo.github.io/medley/history/medley_history/2022medleyannualreport/</loc>
   </url>
   
   <url>
     <loc>https://stumbo.github.io/medley/history/publications/zotero/</loc>
-  </url>
-  
-  <url>
-    <loc>https://stumbo.github.io/medley/other/getinvolved/2021meetings/</loc>
   </url>
   
   <url>
@@ -51,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/project/news/2021medleyannualreport/</loc>
+    <loc>https://stumbo.github.io/medley/history/medley_history/2021medleyannualreport/</loc>
   </url>
   
   <url>
@@ -71,11 +67,11 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/getinvolved/</loc>
+    <loc>https://stumbo.github.io/medley/project/getinvolved/</loc>
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/partners/</loc>
+    <loc>https://stumbo.github.io/medley/project/partners/</loc>
   </url>
   
   <url>
@@ -83,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/partners/educopia/</loc>
+    <loc>https://stumbo.github.io/medley/project/partners/educopia/</loc>
   </url>
   
   <url>
@@ -91,7 +87,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/partners/spn/</loc>
+    <loc>https://stumbo.github.io/medley/project/partners/spn/</loc>
   </url>
   
   <url>
@@ -103,7 +99,7 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/partners/interlisporg-inc/</loc>
+    <loc>https://stumbo.github.io/medley/project/partners/interlisporg-inc/</loc>
   </url>
   
   <url>
@@ -123,6 +119,10 @@
   </url>
   
   <url>
+    <loc>https://stumbo.github.io/medley/history/timeline/</loc>
+  </url>
+  
+  <url>
     <loc>https://stumbo.github.io/medley/using/</loc>
   </url>
   
@@ -132,6 +132,10 @@
   
   <url>
     <loc>https://stumbo.github.io/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stumbo.github.io/medley/history/medley_history/</loc>
   </url>
   
   <url>
@@ -163,19 +167,11 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/medley/other/getinvolved/2022meetings/</loc>
-  </url>
-  
-  <url>
     <loc>https://stumbo.github.io/medley/</loc>
   </url>
   
   <url>
     <loc>https://stumbo.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://stumbo.github.io/medley/history/short/</loc>
   </url>
   
 </urlset>
