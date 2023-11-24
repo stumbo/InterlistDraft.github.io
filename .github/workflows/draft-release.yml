@@ -31,6 +31,16 @@ permissions:
   contents: read
   pages: write
   id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
       
 jobs:
   # ----------------------------------------------------------------------------
@@ -99,7 +109,6 @@ jobs:
             ./update_bibliography.sh
             sudo cp --recursive ${GITHUB_WORKSPACE}/data ~/data
           fi 
-        shell: bash
 
       - name: Install Hugo CLI
         env:
@@ -108,8 +117,6 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb 
 
-      # - name: Install Dart Sass
-      #   run: sudo snap install dart-sass
       # - name: Setup Hugo
       #   uses: peaceiris/actions-hugo@v2
       #   with:
@@ -137,7 +144,8 @@ jobs:
         run: |
           hugo \
             --gc \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"  
+            --debug \
+            --baseURL "draft"  
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
@@ -152,6 +160,10 @@ jobs:
     # needs: build
     # steps:
       - name: Deploy to GitHub Pages
+        env:
+          name: github-pages
+          url: draft
+
         id: deployment
         uses: actions/deploy-pages@v2  
 
