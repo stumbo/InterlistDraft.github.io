@@ -80,6 +80,9 @@ jobs:
   draftDeploy:
     needs: draftCheck
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -144,7 +147,7 @@ jobs:
         run: |
           hugo \
             --gc \
-            --debug \
+            --verbose \
             --baseURL "draft"  
 
       - name: Upload artifact
@@ -160,10 +163,6 @@ jobs:
     # needs: build
     # steps:
       - name: Deploy to GitHub Pages
-        env:
-          name: github-pages
-          url: draft
-
         id: deployment
         uses: actions/deploy-pages@v2  
 
