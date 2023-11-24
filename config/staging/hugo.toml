@@ -4,4 +4,4 @@
 # Staging Configuration file
 #  Entries in this file are used in the staging website
 #
-baseURL = ""https://interlisp.github.io/staged/"
+baseURL = "https://interlisp.github.io/staged/"
