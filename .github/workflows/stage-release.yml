@@ -142,13 +142,13 @@ jobs:
       - name: Build
         env:
           # For maximum backward compatibility with Hugo modules
-          HUGO_ENVIRONMENT: development
-          HUGO_ENV: development
+          HUGO_ENVIRONMENT: staging
+          HUGO_ENV: staging
         run: |
           hugo \
             --gc \
             --verbose \
-            --baseURL "draft"  
+            --baseURL "${{ steps.pages.outputs.base_url }}/" 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

@@ -1,0 +1,16 @@
+# ****************************************************************************
+# hugo.toml  
+#
+# Production Configuration file
+#  Entries in this file are used in the production website
+#
+baseURL = "https://interlisp.org"
+
+# ****************************************************************************
+# 
+# Docsy - Services Configuration
+#
+# Enable Google Analytics only on the production site.
+[services]
+  [services.googleAnalytics]
+    id = "G-JXK20KN1W1"
