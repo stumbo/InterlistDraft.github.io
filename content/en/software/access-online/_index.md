@@ -3,23 +3,25 @@ title: Access Medley Online
 weight: 20
 type: docs
 aliases:
+  - /medley/using/running/online/	
+  - /medley/using/running/online
   - /running/online
-  - /running/online/usingonline
+  - /running/online/using/online
+  - /software/access-online
 ---
 
-Running Interlisp online is good for experimenting and introducing yourself to the environment. However, anything you create in the online environment should be treated as transient. If you're interested in developing and experimenting with Lisp programs, you will want to investigate other options. But, for a first foray, this is a good starting place.
+Running Interlisp online is good for experimenting and introducing yourself to the environment. However, anything you create in the online environment should be treated as transient. If you're interested in developing and experimenting with Lisp programs, you will want to investigate other options. For a first foray, it is a good starting point.
 
 ### Things to note when running online
 
-* Browser compatibility
-* Watch out for control-character conflicts (control-W always gets me)
-* Security is not guaranteed
-* You need a solid net connection to our AWS server (currently in Ohio)
-* Back to time-sharing: Maximum load ~24 simultaneous sessions
+* **Browser compatibility:** Older browsers may not support the VNC software we use; it should give you a warning if this is detected.
+ **control-character conflicts:** Different browsers may intercept user typing control-characters; for example, control-W might close the entire Medley window, rather than backward-delete a word. There is no standard fix: Using Chrome in "full screen" mode; using a browser extension which captures the control-character for its own operations might help. 
+* **No guarantees:** In general, Medley has NO WARRANTY, but in particular we make no guarantees that private information will not be revealed, or that your files uploaded to your account will be held securely.
+* **Reliable Internet:** You need a solid net connection to our AWS server (currently in Ohio).
 
 ## Accessing Interlisp Online
 
-1. Go to [Interlisp Online](https://online.interlisp.org/main)
+1. Go to [Interlisp Online](https://online.interlisp.org/)
 {{< imgproc Login_Screen Resize "400x450">}} Interlisp Online Login {{< /imgproc >}}
 2. Login to Medley Interlisp Online:
    * You can login as a guest by clicking <img src="Guest_Login_button.png" alt="Guest Login button"> on the login screen. However, guest sessions are not saved.
