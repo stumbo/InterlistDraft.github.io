@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/using-medley/medley/modern-medley-release-notes/</loc>
+    <loc>https://interlisp.org/software/Using.html</loc>
   </url>
   
   <url>
@@ -15,15 +15,7 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/doc/info/Using.html</loc>
-  </url>
-  
-  <url>
     <loc>https://interlisp.org/history/bibliography/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/software/using-medley/medley/orientation/</loc>
   </url>
   
   <url>
@@ -35,23 +27,15 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/project/news/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/software/using-medley/medley/</loc>
-  </url>
-  
-  <url>
     <loc>https://interlisp.org/history/parc-alto/</loc>
   </url>
   
   <url>
-    <loc>https://interlisp.org/getinvolved/</loc>
+    <loc>https://interlisp.org/project/getinvolved/</loc>
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/using-medley/medley/the-medley-interlisp-dsk-file-system/</loc>
+    <loc>https://interlisp.org/project/partners/</loc>
   </url>
   
   <url>
@@ -63,6 +47,10 @@
   </url>
   
   <url>
+    <loc>https://interlisp.org/project/partners/educopia/</loc>
+  </url>
+  
+  <url>
     <loc>https://interlisp.org/project/faqs/</loc>
   </url>
   
@@ -71,11 +59,19 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/using-medley/medley/tips/</loc>
+    <loc>https://interlisp.org/software/install-and-run/running-on-wsl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/project/partners/spn/</loc>
   </url>
   
   <url>
     <loc>https://interlisp.org/project/comments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/project/partners/interlisporg-inc/</loc>
   </url>
   
   <url>
@@ -111,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/using-medley/</loc>
+    <loc>https://interlisp.org/software/using-medley/</loc>
   </url>
   
   <url>
@@ -119,15 +115,11 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/project/glossary/</loc>
+    <loc>https://interlisp.org/project/reviving/</loc>
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/apps/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/software/emu-compat/</loc>
+    <loc>https://interlisp.org/history/glossary/</loc>
   </url>
   
   <url>
@@ -140,10 +132,6 @@
   
   <url>
     <loc>https://interlisp.org/project/organization/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/software/about/</loc>
   </url>
   
   <url>

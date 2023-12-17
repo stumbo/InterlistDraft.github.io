@@ -107,6 +107,8 @@ if (!doNotTrack) {
   <a href="../history/lisp/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-historylisp"><span class="">History of Lisp*</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-historytimeline-li">
   <a href="../history/timeline/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-historytimeline"><span class="">Interlisp Timeline</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-historyglossary-li">
+  <a href="../history/glossary/" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id="m-historyglossary"><span class="">Glossary</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-historyin-memoriam-li">
   <a href="../history/in-memoriam/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-historyin-memoriam"><span class="">In Memoriam</span></a>
 </li>
@@ -135,7 +137,8 @@ if (!doNotTrack) {
             <div class="td-toc">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#the-short-history">The Short History</a>
+    <li><a href="#the-short-history">The Short History</a></li>
+    <li><a href="#other-parc-systems">Other PARC systems</a>
       <ul>
         <li><a href="#detailed-history">Detailed History</a></li>
       </ul>
@@ -200,11 +203,16 @@ if (!doNotTrack) {
 		
 	</header>
 	<h2 id="the-short-history">The Short History</h2>
-<p>Interlisp is a software development environment, originating from Xerox PARC in the 1970s and 1980s. supporting software research in AI, computational linguistics, graphical user interfaces, hypertext, and other research areas. Software development in Interlisp-D is a different experience than is common, even today. The features of structure editing, source code management, code analysis and cross-referencing combined to support rapid incremental development. The 1992 ACM Software System Award was awarded to the Interlisp system for pioneering work in programming environments.</p>
+<p>Interlisp is a software development environment, originating from Xerox PARC in the 1970s and 1980s. supporting software research in AI, computational linguistics, graphical user interfaces, hypertext, and other research areas. Software development in Interlisp-D is a different experience than is common, even today. The features of structure editing, source code management, code analysis and cross-referencing combined to support rapid incremental development. The <a href="https://awards.acm.org/award-recipients/masinter_3814811">1992 ACM Software System Award</a> was awarded to the Interlisp system for pioneering work in programming environments.</p>
 <p>Interlisp evolved from an interactive terminal style programming tool to Interlisp-D &ndash; GUI and the entire operating system for the Xerox Lisp machines (called D-machines, named Dorado, Dolphin, Dandelion, Daybreak) with a common byte-code virtual machine. The virtual machine was then ported to C for Sun Unix and many other Unix systems, and the system was extended to support the Common Lisp standard as well.</p>
 <p>Development of the system moved from Xerox PARC to a Xerox AI Systems division, to a spin-out company called Envos, to a smaller company called Venue. The system was called Interlisp, Interlisp-D, and various named releases (Koto, Lyric, Medley) until the name &ldquo;Medley&rdquo; was used for the whole thing.</p>
+<h2 id="other-parc-systems">Other PARC systems</h2>
+<p>At PARC there were actually three IDEs developed with different approaches: Smalltalk, with an object-oriented system; Interlisp, for researchers in AI and exploratory development; Cedar/Mesa, with a strongly typed language. They each had a different model for source code management, development and versioning. In common they shared an infrastructure and vision of computing and distributed systems, with support for Ethernet networking, printing, file servers and network protocols. Each environment had its own Virtual Machine instruction set tuned for the language &ldquo;all the way down&rdquo;, in a single address space, in a way that opened the systems to customization.</p>
+<p>There were several different <a href="http://www.bitsavers.org/pdf/xerox/parc/Exploring_the_Ethernet_with_Mouse_and_Keyboard_May81.pdf">D-machines</a>: Dorado, Dolphin, Dandelion, Daybreak, and others. The machines weren&rsquo;t primarily designed for Lisp, although there were some features added.</p>
+<p>Each software environment had its own microcode (for each machine)  to implement its instruction set; once loaded, the software would take over the machine &ndash; there was no separate OS. Each had large-screen black and white CRTs for a graphical user interface, mouse and cursor pointer, high quality fonts.</p>
+<p>When sold as a workstation of the Xerox Office Systems Division, the machines had different numbers &ndash; the Xerox 1108 (Dandelion) was the same as the Xerox 8010. The Xerox 1186 (Daybreak) was the same as the Xerox 6085.</p>
 <h3 id="detailed-history">Detailed History</h3>
-<p>A more extensive history of Interlisp can be found in the <a href="../history/timeline">Interlisp Timeline</a>.</p>
+<p>A more extensive history of Interlisp can be found in the <a href="timeline">Interlisp Timeline</a>. The <a href="bibliography">Interlisp Bibliography</a> has a wealth of historical material.</p>
 
         <div class="section-index">
     
@@ -269,6 +277,14 @@ if (!doNotTrack) {
             <div class="entry">
                 <h5>
                     <a href="../history/timeline/">Interlisp Timeline</a>
+                </h5>
+                <p></p>
+            </div>
+        
+            
+            <div class="entry">
+                <h5>
+                    <a href="../history/glossary/">Glossary</a>
                 </h5>
                 <p></p>
             </div>
