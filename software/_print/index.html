@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.122.0">
+<meta name="generator" content="Hugo 0.123.0">
 <link rel="canonical" type="text/html" href="https://interlisp.org/software/">
 <meta name="robots" content="noindex, nofollow">
 <link rel="shortcut icon" href="../../Resources/favicon.png" type="image/png">
@@ -213,13 +213,13 @@ This is the multi-page printable view of this section.
       <p>This section contains information on installing or setting up Medley and using it.</p>
 <ul>
 <li>
-<p><a href="access-online">Access Medley Online</a>: how to access Medley running on our servers using your web browser.</p>
+<p><a href="../../software/access-online/">Access Medley Online</a>: how to access Medley running on our servers using your web browser.</p>
 </li>
 <li>
-<p><a href="install-and-run">Install and Run</a>: how to set Medley up on your computer, and restart each time.</p>
+<p><a href="../../software/install-and-run/">Install and Run</a>: how to set Medley up on your computer, and restart each time.</p>
 </li>
 <li>
-<p><a href="using-medley">Using Medley</a>: Once you are up and running, some basics and pointers to other documentation.</p>
+<p><a href="../../software/using-medley/">Using Medley</a>: Once you are up and running, some basics and pointers to other documentation.</p>
 </li>
 <li>
 <p><em>Coming</em>: <a href="https://groups.google.com/g/lispcore/c/tiD2PUzBLCo/m/HuqWV63_AQAJ">Running Medley in the browser!!</a></p>
@@ -251,19 +251,19 @@ This is the multi-page printable view of this section.
 	<p>You can install Medley on a variety of different computer systems.</p>
 <h3 id="download-and-install-from-a-release">Download and install from a release</h3>
 <ul>
-<li><a href="./running-on-linux">Running on Linux</a>
+<li><a href="../../software/install-and-run/running-on-linux/">Running on Linux</a>
 <ul>
 <li>Packages for .deb distributions and source to build for others</li>
 </ul>
 </li>
-<li><a href="./running-on-mac">Running on Mac</a>
+<li><a href="../../software/install-and-run/running-on-mac/">Running on Mac</a>
 <ul>
 <li>for MacOS</li>
 </ul>
 </li>
-<li><a href="./running-on-win">Running on Windows</a>
+<li><a href="../../software/install-and-run/running-on-win/">Running on Windows</a>
 <ul>
-<li><a href="./running-on-wsl">Running on Windows with WSL</a></li>
+<li><a href="../../software/install-and-run/running-on-wsl/">Running on Windows with WSL</a></li>
 </ul>
 </li>
 </ul>
@@ -300,7 +300,7 @@ This is the multi-page printable view of this section.
 	<h1 id="pg-3b5b782ae7694e588e8f58cd4ba1ea0b">1.1 - Install and Run on Linux</h1>
     
 	<p>Medley runs on most any Linux system that includes X Windows.</p>
-<p>Note that for Windows users of System For Linux (WSL) on Windows 11 and Windows 10 Build 19044+, there are <a href="./running-on-wsl">separate instructions</a>.</p>
+<p>Note that for Windows users of System For Linux (WSL) on Windows 11 and Windows 10 Build 19044+, there are <a href="../../software/install-and-run/running-on-wsl/">separate instructions</a>.</p>
 <p>We recommend the Linux system have a web browser installed.
 A browser is not strictly necessary to run Medley, but several features of the system (e.g., displaying some user documentation) will not work without an external browser installed.</p>
 <p>Medley can be installed on your Linux system in one of two configurations: <em>standard</em> and <em>local</em>.</p>
@@ -581,7 +581,7 @@ cmd /C medley &lt;flags and options&gt;
 <p>For first-time users: <code>medley --apps --interlisp --noscroll</code> or, equivalently, <code>medley -a -e -n</code> is a good starting point.  This will give you a fully populated Medley system, including the applications built on Medley such as Notecards and Rooms.</p>
 <h4 id="notes">Notes</h4>
 <ol>
-<li>One anomaly of the native Windows install is that the file system from within Medley does not map directly to the file system as seen from the Windows Explorer.   Specifically, within Medley, the {DSK} and {UNIX} file system root (i.e., &ldquo;{DSK}/&rdquo; and &ldquo;{UNIX}/&rdquo;) is mapped to <a href="#to-install-and-run-medley-native"><em><strong>install_dir</strong></em></a>. Medley will find the Windows C: drive as {DSK}/c/ (or &ldquo;{DSK}<c>&rdquo;).</li>
+<li>One anomaly of the native Windows install is that the file system from within Medley does not map directly to the file system as seen from the Windows Explorer.   Specifically, within Medley, the {DSK} and {UNIX} file system root (i.e., &ldquo;{DSK}/&rdquo; and &ldquo;{UNIX}/&rdquo;) is mapped to <a href="../../#to-install-and-run-medley-native"><em><strong>install_dir</strong></em></a>. Medley will find the Windows C: drive as {DSK}/c/ (or &ldquo;{DSK}<c>&rdquo;).</li>
 </ol>
 <p>Your Medley LOGINDIR will be  <em><strong>/home/&lt;name&gt;/il</strong></em>  (or <em><strong>&lt;install_dir&gt;\home\&lt;name&gt;\il</strong></em>  from the Windows perspective), where <em><strong>&lt;name&gt;</strong></em> is your Windows username.  Medley code is stored in  <em><strong>/medley</strong></em>  (or <em><strong>&lt;install_dir&gt;\medley</strong></em>  from the Windows perspective).</p>
 <p>Also, from within Medley you can refer to any file in the Windows file system using  <em><strong>/&lt;drive letter&gt;/&lt;windows path using &ldquo;/&rdquo; instead of &ldquo;\&quot;&gt;</strong></em>. Example:  <em><strong>C:\User\Frank\Downloads\foo</strong></em> in Windows will be  <em><strong>/c/User/Frank/Downloads/foo</strong></em> in Medley. (Note that this means that within Medley, <em><strong>/medley/foo</strong></em> and <em><strong>/c/&lt;install_dir&gt;/medley/foo</strong></em> will be references to the same Windows file.)</p>
