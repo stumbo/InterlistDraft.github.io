@@ -3,7 +3,7 @@ baseURL = "https://interlisp.org"
 relativeURLs = true
 canonifyURLs = true
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 assetDir = "static"
 
