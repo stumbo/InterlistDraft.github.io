@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://interlisp.org/project/status/2022medleyannualreport/</loc>
+    <loc>https://interlisp.org/project/status/2023medleyannualreport/</loc>
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/Using.html</loc>
+    <loc>https://interlisp.org/project/status/</loc>
   </url>
   
   <url>
@@ -19,11 +19,23 @@
   </url>
   
   <url>
+    <loc>https://interlisp.org/project/status/2022medleyannualreport/</loc>
+  </url>
+  
+  <url>
     <loc>https://interlisp.org/project/status/2021medleyannualreport/</loc>
   </url>
   
   <url>
+    <loc>https://interlisp.org/software/access-online/</loc>
+  </url>
+  
+  <url>
     <loc>https://interlisp.org/software/install-and-run/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/using-medley/</loc>
   </url>
   
   <url>
@@ -39,10 +51,6 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/access-online/</loc>
-  </url>
-  
-  <url>
     <loc>https://interlisp.org/history/d-machines/</loc>
   </url>
   
@@ -55,11 +63,11 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/install-and-run/running-on-linux/</loc>
+    <loc>https://interlisp.org/software/install-and-run/linux/</loc>
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/install-and-run/running-on-wsl/</loc>
+    <loc>https://interlisp.org/project/partners/shft/</loc>
   </url>
   
   <url>
@@ -67,7 +75,15 @@
   </url>
   
   <url>
+    <loc>https://interlisp.org/software/using-medley/il-using/</loc>
+  </url>
+  
+  <url>
     <loc>https://interlisp.org/project/comments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/wsl/</loc>
   </url>
   
   <url>
@@ -79,7 +95,35 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/install-and-run/running-on-mac/</loc>
+    <loc>https://interlisp.org/software/using-medley/cl-using/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/macos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/macos/macos-from-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/native/windows-native-from-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/linux/linux-local-from-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/linux/linux-standard-from-github/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
   </url>
   
   <url>
@@ -87,11 +131,23 @@
   </url>
   
   <url>
-    <loc>https://interlisp.org/software/install-and-run/running-on-win/</loc>
+    <loc>https://interlisp.org/software/using-medley/keystrokes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/native/</loc>
   </url>
   
   <url>
     <loc>https://interlisp.org/project/stories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/using-medley/online-using/</loc>
+  </url>
+  
+  <url>
+    <loc>https://interlisp.org/software/install-and-run/windows/</loc>
   </url>
   
   <url>
@@ -100,14 +156,6 @@
   
   <url>
     <loc>https://interlisp.org/history/timeline/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/project/status/</loc>
-  </url>
-  
-  <url>
-    <loc>https://interlisp.org/software/using-medley/</loc>
   </url>
   
   <url>
