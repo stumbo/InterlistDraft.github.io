@@ -13,7 +13,7 @@ relativeURLs: false
 canonifyURLs: true
 
 # enableRobotsTXT:  Enable generation of Robots.txt file
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 # aasetDir:  Location where Hugo looks for assets
 assetDir: static
