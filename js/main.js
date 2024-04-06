@@ -7118,7 +7118,7 @@ limitations under the License.
                     }
 
                     var query = $(this).val();
-                    var searchPage = "https://wasm.interlisp.org/search/?q=" + query;
+                    var searchPage = "search/?q=" + query;
                     document.location = searchPage;
 
                     return false;

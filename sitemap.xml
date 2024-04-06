@@ -3,195 +3,195 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wasm.interlisp.org/project/status/2023medleyannualreport/</loc>
+    <loc>/project/status/2023medleyannualreport/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/status/</loc>
+    <loc>/project/status/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/</loc>
+    <loc>/project/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/bibliography/</loc>
+    <loc>/history/bibliography/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/status/2022medleyannualreport/</loc>
+    <loc>/project/status/2022medleyannualreport/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/status/2021medleyannualreport/</loc>
+    <loc>/project/status/2021medleyannualreport/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/access-online/</loc>
+    <loc>/software/access-online/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/</loc>
+    <loc>/software/install-and-run/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/using-medley/</loc>
+    <loc>/software/using-medley/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/parc-alto/</loc>
+    <loc>/history/parc-alto/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/getinvolved/</loc>
+    <loc>/project/getinvolved/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/partners/</loc>
+    <loc>/project/partners/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/d-machines/</loc>
+    <loc>/history/d-machines/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/partners/educopia/</loc>
+    <loc>/project/partners/educopia/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/faqs/</loc>
+    <loc>/project/faqs/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/linux/</loc>
+    <loc>/software/install-and-run/linux/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/partners/shft/</loc>
+    <loc>/project/partners/shft/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/partners/spn/</loc>
+    <loc>/project/partners/spn/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/using-medley/il-using/</loc>
+    <loc>/software/using-medley/il-using/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/comments/</loc>
+    <loc>/project/comments/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/wsl/</loc>
+    <loc>/software/install-and-run/windows/wsl/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/partners/interlisporg-inc/</loc>
+    <loc>/project/partners/interlisporg-inc/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/medley/</loc>
+    <loc>/history/medley/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/using-medley/cl-using/</loc>
+    <loc>/software/using-medley/cl-using/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/macos/</loc>
+    <loc>/software/install-and-run/macos/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/macos/macos-from-github/</loc>
+    <loc>/software/install-and-run/macos/macos-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/native/windows-native-from-github/</loc>
+    <loc>/software/install-and-run/windows/native/windows-native-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/linux/linux-local-from-github/</loc>
+    <loc>/software/install-and-run/linux/linux-local-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
+    <loc>/software/install-and-run/windows/wsl/windows-wsl-local-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/linux/linux-standard-from-github/</loc>
+    <loc>/software/install-and-run/linux/linux-standard-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
+    <loc>/software/install-and-run/windows/wsl/windows-wsl-standard-from-github/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/guis/</loc>
+    <loc>/history/guis/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/using-medley/keystrokes/</loc>
+    <loc>/software/using-medley/keystrokes/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/native/</loc>
+    <loc>/software/install-and-run/windows/native/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/stories/</loc>
+    <loc>/project/stories/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/using-medley/online-using/</loc>
+    <loc>/software/using-medley/online-using/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/install-and-run/windows/</loc>
+    <loc>/software/install-and-run/windows/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/lisp/</loc>
+    <loc>/history/lisp/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/timeline/</loc>
+    <loc>/history/timeline/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/credits/</loc>
+    <loc>/project/credits/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/reviving/</loc>
+    <loc>/project/reviving/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/glossary/</loc>
+    <loc>/history/glossary/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/in-memoriam/</loc>
+    <loc>/history/in-memoriam/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/history/</loc>
+    <loc>/history/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/project/organization/</loc>
+    <loc>/project/organization/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/search/</loc>
+    <loc>/search/</loc>
   </url>
   
   <url>
-    <loc>https://wasm.interlisp.org/software/</loc>
+    <loc>/software/</loc>
   </url>
   
 </urlset>
