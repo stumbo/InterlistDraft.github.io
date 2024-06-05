@@ -35,10 +35,6 @@
   </url>
   
   <url>
-    <loc>https://stumbo.github.io/InterlispDraft.github.io/software/using-medley/</loc>
-  </url>
-  
-  <url>
     <loc>https://stumbo.github.io/InterlispDraft.github.io/history/parc-alto/</loc>
   </url>
   
@@ -47,11 +43,19 @@
   </url>
   
   <url>
+    <loc>https://stumbo.github.io/InterlispDraft.github.io/project/donate/</loc>
+  </url>
+  
+  <url>
     <loc>https://stumbo.github.io/InterlispDraft.github.io/project/partners/</loc>
   </url>
   
   <url>
     <loc>https://stumbo.github.io/InterlispDraft.github.io/history/d-machines/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stumbo.github.io/InterlispDraft.github.io/software/using-medley/</loc>
   </url>
   
   <url>
@@ -96,6 +100,10 @@
   
   <url>
     <loc>https://stumbo.github.io/InterlispDraft.github.io/software/using-medley/cl-using/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stumbo.github.io/InterlispDraft.github.io/privacy/</loc>
   </url>
   
   <url>
