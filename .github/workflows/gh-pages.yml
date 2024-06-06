@@ -98,9 +98,9 @@ jobs:
         shell: bash
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v
         with:
-          hugo-version: '0.126.1'
+          hugo-version: '0.122.0'
           extended: true
 
       - name: Setup Node
