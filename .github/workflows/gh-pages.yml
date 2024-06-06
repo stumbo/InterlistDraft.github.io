@@ -86,7 +86,7 @@ jobs:
         run: |
           if [[ "$CACHE_HIT" == 'true' ]]; then
             echo "Use Cache"
-            sudo cp --recursive ~/data ${GITHUB_WORKSPACE}
+            sudo cp --recursive ~/data ${GITHUB_WORKSPACE}/static
             ls -la ${GITHUB_WORKSPACE}/static/data
           else
             echo "Retrieve bibliography"
@@ -98,7 +98,7 @@ jobs:
         shell: bash
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v4
         with:
           hugo-version: '0.122.0'
           extended: true
