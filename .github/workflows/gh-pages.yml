@@ -93,7 +93,7 @@ jobs:
             cd scripts
             chmod +x ./update_bibliography.sh
             ./update_bibliography.sh
-            sudo cp --recursive ${GITHUB_WORKSPACE}/static/data ~/static/data
+            sudo cp --recursive ${GITHUB_WORKSPACE}/static/data ~/data
           fi 
         shell: bash
 
