@@ -75,7 +75,7 @@ jobs:
         env:
           cache-name: cache-zotero_bib
         with:
-          path: ~/static/data
+          path: ~/data
           key: ${{ needs.check.outputs.zoteroVersion }}
           restore-keys: |
             ${{ needs.check.outputs.zoteroVersion }}
@@ -86,7 +86,7 @@ jobs:
         run: |
           if [[ "$CACHE_HIT" == 'true' ]]; then
             echo "Use Cache"
-            sudo cp --recursive ~/static/data ${GITHUB_WORKSPACE}
+            sudo cp --recursive ~/data ${GITHUB_WORKSPACE}/static
             ls -la ${GITHUB_WORKSPACE}/static/data
           else
             echo "Retrieve bibliography"
@@ -98,7 +98,7 @@ jobs:
         shell: bash
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.122.0'
           extended: true
@@ -116,7 +116,7 @@ jobs:
         run: hugo -e staging
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
