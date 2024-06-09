@@ -8,14 +8,25 @@
 
 <title>Install and Run on Linux | Staging Environment</title>
 <meta name="description" content="Dedicated to restoring and preserving the Interlisp experience">
-<meta property="og:title" content="Install and Run on Linux" />
-<meta property="og:description" content="Dedicated to restoring and preserving the Interlisp experience" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://stumbo.github.io/InterlispDraft.github.io/software/install-and-run/linux/" />
+<meta property="og:url" content="https://stumbo.github.io/InterlispDraft.github.io/software/install-and-run/linux/">
+  <meta property="og:site_name" content="Staging Environment">
+  <meta property="og:title" content="Install and Run on Linux">
+  <meta property="og:description" content="Note that these instructions do not apply to Linux distros running within Windows System For Linux (WSL). Separate instructions are available for WSL here.
+Medley installs and runs on most recent Linux distros (Alpine Linux is one exception). All that is strictly required is that the distro include an X Windows server. Most of the testing for Medley has been done on Ubuntu 20.04 and 22.04.
+We also recommend that the Linux system have a web browser installed.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
 
-<meta itemprop="name" content="Install and Run on Linux">
-<meta itemprop="description" content="Dedicated to restoring and preserving the Interlisp experience"><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Install and Run on Linux"/>
-<meta name="twitter:description" content="Dedicated to restoring and preserving the Interlisp experience"/>
+  <meta itemprop="name" content="Install and Run on Linux">
+  <meta itemprop="description" content="Note that these instructions do not apply to Linux distros running within Windows System For Linux (WSL). Separate instructions are available for WSL here.
+Medley installs and runs on most recent Linux distros (Alpine Linux is one exception). All that is strictly required is that the distro include an X Windows server. Most of the testing for Medley has been done on Ubuntu 20.04 and 22.04.
+We also recommend that the Linux system have a web browser installed.">
+  <meta itemprop="wordCount" content="939">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Install and Run on Linux">
+  <meta name="twitter:description" content="Note that these instructions do not apply to Linux distros running within Windows System For Linux (WSL). Separate instructions are available for WSL here.
+Medley installs and runs on most recent Linux distros (Alpine Linux is one exception). All that is strictly required is that the distro include an X Windows server. Most of the testing for Medley has been done on Ubuntu 20.04 and 22.04.
+We also recommend that the Linux system have a web browser installed.">
 
 
 
@@ -289,7 +300,7 @@ For local installations, you can install multiple copies of Medley (e.g. differe
 <p>Documentation for the <code>&lt;flags and options&gt;</code> to the <code>medley</code> command can be found <a href="https://online.interlisp.org/downloads/man_medley.html">here</a></p>
 <p>For first-time users: <code>medley --vnc --apps --interlisp --noscroll</code> or, equivalently, <code>medley -v -a -e -n</code> is a good starting point.  This will give you a fully populated Medley system, including the applications built on Medley such as Notecards and Rooms.</p>
 <p>This will bring up the Medley environment in a separate Window on your Linux desktop.  The Medley desktop and windows will all be contained within this Window as shown below.</p>
-<p><img alt="Medley window open on Linux desktop" src="./images/Medley-on-Linux.png"></p>
+<p><img alt="Medley window open on Linux desktop" src="/InterlispDraft.github.io/software/install-and-run/linux/images/Medley-on-Linux.png"></p>
 <h2 id="use-medley"><strong>Use Medley</strong></h2>
 <p>Once Medley is up and running, see <a href="/InterlispDraft.github.io/software/using-medley/">here</a> for tips on how to navigate and use the Medley environment.</p>
 <p>By default, Medley will use (creating, if necessary) a directory called <em>$HOME/il</em>.  This will be used by the Medley system as its <em>LOGINDIR</em> as follows:</p>
