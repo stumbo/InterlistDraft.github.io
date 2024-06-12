@@ -780,7 +780,7 @@
         ]
       },
       "key": "6RAE6DBF",
-      "version": 2165,
+      "version": 6356,
       "itemType": "report",
       "creators": [
         {
@@ -815,6 +815,15 @@
           "tag": "BBN-LISP"
         },
         {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "hardware overview"
+        },
+        {
+          "tag": "memory management"
+        },
+        {
           "tag": "s2z"
         }
       ],
@@ -823,7 +832,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-06-01T14:43:36Z",
-      "dateModified": "2021-07-26T02:35:03Z"
+      "dateModified": "2024-06-11T14:44:35Z"
     },
     {
       "target": "M6869X84",
@@ -831,6 +840,7 @@
       "type": "book",
       "title": "The programming language LISP: Its operation and applications",
       "publisher": "The M.I.T. Press",
+      "abstract": "Among the new languages for instructing computers is a remarkable one called LISP. The name cornes from the first three\nletters of LIST and the first letter of PROCESSING. Not only is LISP a language for instructing computers but it is also a formal mathematical language, in the same way as elëmentary algebra when rigorously defined and used is a formal mathematical language. \n\nLISP is designed primarily for processing data consisting of lists of symbols. It has been used for symbolic calculations in differential and integral calculus, electrical circuit theory, mathematical logic, game playing, and other fields of intelligent handling of symbols. \n\nThe purpose of the present article is to make a bridge between the ideas and terms of ordinary English and elementary\nmathematics, and the ideas and terms known and used by LISP programmers.",
       "ISBN": "0-262-59004-2",
       "shortTitle": "The programming language LISP",
       "author": [
@@ -851,7 +861,7 @@
         ]
       },
       "key": "M6869X84",
-      "version": 2255,
+      "version": 6363,
       "itemType": "book",
       "creators": [
         {
@@ -884,6 +894,21 @@
       "extra": "",
       "tags": [
         {
+          "tag": "LISP"
+        },
+        {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "programming applications"
+        },
+        {
+          "tag": "programming fundamentals"
+        },
+        {
+          "tag": "programming overview"
+        },
+        {
           "tag": "sz"
         }
       ],
@@ -895,7 +920,7 @@
         "dc:replaces": "http://zotero.org/groups/2914042/items/J6V82TJX"
       },
       "dateAdded": "2021-04-22T04:57:15Z",
-      "dateModified": "2021-08-28T00:04:16Z"
+      "dateModified": "2024-06-11T15:12:23Z"
     }
   ],
   "1967": [
@@ -5790,7 +5815,7 @@
         ]
       },
       "key": "59BVIIF8",
-      "version": 3171,
+      "version": 6371,
       "itemType": "report",
       "creators": [
         {
@@ -5818,10 +5843,22 @@
       "extra": "",
       "tags": [
         {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "implementation"
+        },
+        {
           "tag": "interlisp"
         },
         {
           "tag": "s2z"
+        },
+        {
+          "tag": "system overview"
+        },
+        {
+          "tag": "virtual machine"
         }
       ],
       "collections": [
@@ -5829,7 +5866,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-05-31T19:01:10Z",
-      "dateModified": "2023-10-30T19:43:45Z"
+      "dateModified": "2024-06-11T15:25:54Z"
     },
     {
       "target": "C86QBBMZ",
@@ -6633,7 +6670,7 @@
         ]
       },
       "key": "IWAVJBR2",
-      "version": 3094,
+      "version": 6407,
       "itemType": "thesis",
       "creators": [
         {
@@ -6658,6 +6695,21 @@
       "extra": "",
       "tags": [
         {
+          "tag": "Lisp"
+        },
+        {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "SCOPE"
+        },
+        {
+          "tag": "programming environments"
+        },
+        {
+          "tag": "programming overview"
+        },
+        {
           "tag": "sz"
         }
       ],
@@ -6671,7 +6723,7 @@
         ]
       },
       "dateAdded": "2021-04-25T18:13:25Z",
-      "dateModified": "2023-10-04T04:34:29Z"
+      "dateModified": "2024-06-12T10:17:50Z"
     },
     {
       "target": "KIDFPIUA",
@@ -7548,7 +7600,7 @@
         ]
       },
       "key": "RV6K2EVG",
-      "version": 3183,
+      "version": 6367,
       "itemType": "thesis",
       "creators": [
         {
@@ -7572,7 +7624,25 @@
       "extra": "DOI: 10.14288/1.0051801",
       "tags": [
         {
+          "tag": "Interlisp"
+        },
+        {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "abstract machine"
+        },
+        {
+          "tag": "multilisp"
+        },
+        {
+          "tag": "system overview"
+        },
+        {
           "tag": "sz"
+        },
+        {
+          "tag": "virtual machine"
         }
       ],
       "collections": [
@@ -7580,7 +7650,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-06-02T17:17:08Z",
-      "dateModified": "2023-10-30T20:00:15Z"
+      "dateModified": "2024-06-11T15:20:21Z"
     }
   ],
   "1981": [
@@ -8470,7 +8540,7 @@
         ]
       },
       "key": "7T3AV4PM",
-      "version": 2066,
+      "version": 6378,
       "itemType": "journalArticle",
       "creators": [
         {
@@ -8503,7 +8573,16 @@
       "extra": "Publisher: IEEE Computer Society",
       "tags": [
         {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
           "tag": "interlisp"
+        },
+        {
+          "tag": "programming environments"
+        },
+        {
+          "tag": "programming overview"
         }
       ],
       "collections": [
@@ -8511,7 +8590,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-05-05T15:43:12Z",
-      "dateModified": "2021-06-14T02:25:22Z"
+      "dateModified": "2024-06-11T15:43:27Z"
     },
     {
       "target": "THYZ7UPH",
@@ -9668,11 +9747,10 @@
     {
       "target": "L378BFRQ",
       "id": "9296070/L378BFRQ",
-      "type": "book",
+      "type": "article",
       "title": "Interlisp reference manual: Revised",
       "publisher": "Xerox Corp.",
-      "publisher-place": "Palo Alto Research Center, Pasadena, Calif.",
-      "event-place": "Palo Alto Research Center, Pasadena, Calif.",
+      "abstract": "Interlisp is a programming system. A programming system consists of a programming language, a large number of predefined programs (or functions, to use the Lisp tenninology) that can be used either as direct user commands or as subroutines in user programs, and an environment that supports the programmer by providing a variety of specialized programming tools. The language and predefined functions of Interlisp are rich, but similar to those of other modem programming languages. The Interlisp programming environment, on the other hand, is very distinctive. Its most salient characteristic is an integrated set of programming tools which know enough about Interlisp programming so that they can act as semi-autonomous, intelligent \"assistants\" to the programmer. In addition, the environment provides a completely self-contained world for creating, debugging and maintaining Interlisp programs. \n\nThis manual describes all three components of the Interlisp system. There are discussions about the content and structure of the language, about the pieces of the system that can be incorporated into user programs, and about the environment. The line between user code and the environment is thin and changing. Most users extend the environment with some special features of their own. Because Interlisp is so easily extended, the system has grown over time to incorporate many different ideas about effective and useful ways to program. This gradual accumulation over many years has resulted in a rich and diverse system.",
       "note": "OCLC: 11098633",
       "language": "English",
       "author": [
@@ -9689,23 +9767,15 @@
         ]
       },
       "key": "L378BFRQ",
-      "version": 2063,
-      "itemType": "book",
+      "version": 6400,
+      "itemType": "document",
       "creators": [
         {
           "creatorType": "author",
           "name": "Michael Sannella"
         }
       ],
-      "series": "",
-      "seriesNumber": "",
-      "volume": "",
-      "numberOfVolumes": "",
-      "edition": "",
-      "place": "Palo Alto Research Center, Pasadena, Calif.",
       "date": "1983",
-      "numPages": "",
-      "ISBN": "",
       "shortTitle": "",
       "url": "",
       "accessDate": "",
@@ -9717,6 +9787,15 @@
       "extra": "OCLC: 11098633",
       "tags": [
         {
+          "tag": "Interlisp"
+        },
+        {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "reference manual"
+        },
+        {
           "tag": "sz"
         }
       ],
@@ -9725,7 +9804,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-05-31T10:16:58Z",
-      "dateModified": "2021-06-12T14:59:01Z"
+      "dateModified": "2024-06-12T09:51:50Z"
     },
     {
       "target": "A7ZZFYKB",
@@ -32579,7 +32658,7 @@
         ]
       },
       "key": "23ZCTJ9Z",
-      "version": 2157,
+      "version": 6392,
       "itemType": "journalArticle",
       "creators": [
         {
@@ -32611,7 +32690,19 @@
           "tag": "BBN-LISP"
         },
         {
+          "tag": "Reviewed by SHFT - UofA (Abhik Hasnain)"
+        },
+        {
+          "tag": "history"
+        },
+        {
           "tag": "s2z"
+        },
+        {
+          "tag": "tenex"
+        },
+        {
+          "tag": "tops-20"
         }
       ],
       "collections": [
@@ -32619,7 +32710,7 @@
       ],
       "relations": {},
       "dateAdded": "2021-06-01T14:47:05Z",
-      "dateModified": "2021-07-26T02:27:23Z"
+      "dateModified": "2024-06-12T09:27:22Z"
     }
   ],
   "2016": [
@@ -36675,6 +36766,57 @@
       "dateModified": "2023-02-25T14:06:15Z"
     }
   ],
+  "2024": [
+    {
+      "target": "QB7I4CXC",
+      "id": "9296070/QB7I4CXC",
+      "type": "webpage",
+      "title": "Doug Lenat's source code for AM and possibly EURISKO w/Traveller found in public archives",
+      "issued": {
+        "date-parts": [
+          [
+            "2024",
+            1,
+            2
+          ]
+        ]
+      },
+      "accessed": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            26
+          ]
+        ]
+      },
+      "key": "QB7I4CXC",
+      "version": 6383,
+      "itemType": "webpage",
+      "creators": [],
+      "websiteTitle": "",
+      "websiteType": "",
+      "date": "January 2, 2024",
+      "shortTitle": "",
+      "url": "https://white-flame.com/am-eurisko.html",
+      "accessDate": "2023-11-26T21:01:51Z",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Artificial Intelligence"
+        }
+      ],
+      "collections": [
+        "MTUXENI8",
+        "RH95QH8N"
+      ],
+      "relations": {},
+      "dateAdded": "2023-11-26T21:01:51Z",
+      "dateModified": "2024-06-12T06:10:27Z"
+    }
+  ],
   "Undated": [
     {
       "target": "24B6QE9B",
@@ -37128,42 +37270,6 @@
       "relations": {},
       "dateAdded": "2023-11-24T12:54:44Z",
       "dateModified": "2023-11-24T12:56:11Z"
-    },
-    {
-      "target": "QB7I4CXC",
-      "id": "9296070/QB7I4CXC",
-      "type": "webpage",
-      "title": "Doug Lenat's source code for AM and possibly EURISKO w/Traveller found in public archives",
-      "accessed": {
-        "date-parts": [
-          [
-            2023,
-            11,
-            26
-          ]
-        ]
-      },
-      "key": "QB7I4CXC",
-      "version": 5708,
-      "itemType": "webpage",
-      "creators": [],
-      "websiteTitle": "",
-      "websiteType": "",
-      "date": "",
-      "shortTitle": "",
-      "url": "https://white-flame.com/am-eurisko.html",
-      "accessDate": "2023-11-26T21:01:51Z",
-      "language": "",
-      "rights": "",
-      "extra": "",
-      "tags": [],
-      "collections": [
-        "MTUXENI8",
-        "RH95QH8N"
-      ],
-      "relations": {},
-      "dateAdded": "2023-11-26T21:01:51Z",
-      "dateModified": "2023-11-26T21:01:51Z"
     },
     {
       "target": "D6SLY893",
