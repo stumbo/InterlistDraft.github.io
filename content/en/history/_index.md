@@ -2,9 +2,6 @@
 title: History
 weight: 500
 type: docs
-outputs:
- - html
- - rss
 aliases:
  - /medley/history/
 ---
