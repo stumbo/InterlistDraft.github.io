@@ -2,7 +2,7 @@
   {{ range . }}
 		{{ if eq .name "RSS" }} 
 		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
-			<a target="_blank" rel="noopener" href="{{ .Permalink }}" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="{{ relURL }}" aria-label="RSS">
 				<i class="fas fa-rss"></i>
 			</a>
 		</li>
