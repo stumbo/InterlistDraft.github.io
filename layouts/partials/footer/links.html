@@ -1,8 +1,8 @@
 <ul class="td-footer__links-list">
   {{ range . }}
-		{{ if eq .name "RSS" }} 
+		{{ if eq .name "RSS Feed" }} 
 		<li class="td-footer__links-item" data-bs-toggle="tooltip" title="RSS" aria-label="RSS">
-			<a target="_blank" rel="noopener" href="{{ .baseURL }}" aria-label="RSS">
+			<a target="_blank" rel="noopener" href="{{ absURL .url }}" aria-label="RSS">
 				<i class="fas fa-rss"></i>
 			</a>
 		</li>
